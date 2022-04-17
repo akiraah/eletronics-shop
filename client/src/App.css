@@ -1,0 +1,67 @@
+header {
+  margin: 20px;
+  padding: 10px 0px 0px 0px;
+  background-color: antiquewhite;
+}
+
+nav {
+  margin-top: 15px;
+  padding: 5px;
+  background-color: azure;
+  text-align: right;
+}
+
+.header-title {
+  margin: -5px 0 0 -5px;
+  padding: 0 15px;
+  color: white;
+}
+
+.links {
+  margin-right: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+#item {
+  padding: 25px;
+  margin: 15px;
+}
+
+#item:hover {
+  background-color: aliceblue;
+}
+
+.cart-column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 15px;
+}
+
+.cart-order {
+  width: 75px;
+  margin: 0 30px 20px 0;
+  align-self: flex-end;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.cart-item {
+  border: 1px solid green;
+  padding: 0 5px;
+  margin: 5px;
+}
