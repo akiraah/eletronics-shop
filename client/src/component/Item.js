@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
 import { context } from '../Context';
 
-const Item = ({ name, price }) => {
-  const { addItemsToCart } = useContext(context);
+const Item = ({ name, price, imageUrl }) => {
+  const { addItemToCart } = useContext(context);
+  const item = { name, price, imageUrl };
   return (
-    <div onClick={() => addItemsToCart({ name, price })} id="item">
+    <div onClick={() => addItemToCart(item)} id="item">
       <h2>{name}</h2>
       <h4>{price}</h4>
+      <img src={imageUrl} alt={name}/>
     </div>
   );
 };

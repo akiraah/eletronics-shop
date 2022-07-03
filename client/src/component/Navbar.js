@@ -6,8 +6,12 @@ const Navbar = (props) => {
     <header>
       <h1 className="header-title">Shop</h1>
       <nav>
-          <Link className="links" to="/">Home</Link>
-          <Link className="links" to="/cart">Cart</Link>
+        <Link className="links" to="/">
+          Home
+        </Link>
+        <Link className="links" to="/basket">
+          Cart
+        </Link>
       </nav>
     </header>
   );

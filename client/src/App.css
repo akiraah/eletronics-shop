@@ -37,6 +37,13 @@ nav {
   margin: 15px;
 }
 
+#item img {
+  border: 1px solid red;
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+}
+
 #item:hover {
   background-color: aliceblue;
 }
@@ -46,6 +53,12 @@ nav {
   flex-direction: column;
   border: 1px solid red;
   margin: 15px;
+}
+
+.cart-sum {
+  width: 75px;
+  margin: 0 30px 20px 0;
+  align-self: flex-end;
 }
 
 .cart-order {
@@ -64,4 +77,9 @@ nav {
   border: 1px solid green;
   padding: 0 5px;
   margin: 5px;
+}
+
+.cart-items img {
+  border: 1px solid green;
+  max-width: 50%;
 }

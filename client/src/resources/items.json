@@ -1,0 +1,21 @@
+[{
+        "name": "Macbook 13 pro",
+        "price": 2300,
+        "imageUrl": "https://i2.wp.com/laptopmedia.com/wp-content/uploads/2017/06/MacBook-Pro-13-2012-NON-RETINA.jpg?fit=2381%2C1886&ssl=1"
+    },
+    {
+        "name": "Canon Camera",
+        "imageUrl": "http://www.bhphotovideo.com/images/images2500x2500/1110382.jpg",
+        "price": 400
+    },
+    {
+        "name": "iPad pro",
+        "imageUrl": "https://images.esellerpro.com/2131/I/250/959/lrgscaleIMG_7996.JPEG",
+        "price": 1500
+    },
+    {
+        "name": "Dell 27\" IPS panel",
+        "imageUrl": "https://www.bhphotovideo.com/images/images2000x2000/dell_u2717d_27_ultrasharp_27_1254756.jpg",
+        "price": 2300
+    }
+]
