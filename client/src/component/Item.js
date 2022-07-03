@@ -5,10 +5,14 @@ const Item = ({ name, price, imageUrl }) => {
   const { addItemToCart } = useContext(context);
   const item = { name, price, imageUrl };
   return (
-    <div onClick={() => addItemToCart(item)} id="item">
-      <h2>{name}</h2>
-      <h4>{price}</h4>
-      <img src={imageUrl} alt={name}/>
+    <div className="product-card" onClick={() => addItemToCart(item)}>
+      <div className="product-image">
+        <img src={imageUrl} alt={name} />
+      </div>
+      <div className="product-info">
+        <h5>{name}</h5>
+        <h6>{price}</h6>
+      </div>
     </div>
   );
 };

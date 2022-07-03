@@ -4,7 +4,7 @@ import Item from '../component/Item';
 
 const Home = () => {
   return (
-    <div className="items">
+    <section className="products">
       {products.map((item, index) => {
         return (
           <Item
@@ -15,7 +15,7 @@ const Home = () => {
           />
         );
       })}
-    </div>
+    </section>
   );
 };
 

@@ -24,28 +24,35 @@ nav {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.items {
+.products {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 20px;
   padding: 15px;
 }
 
-#item {
-  padding: 25px;
+.product-card {
+  padding: 2%;
   margin: 15px;
+  border: 1px solid red;
 }
 
-#item img {
-  border: 1px solid red;
+.product-card img {
+  border: 1px solid blue;
   max-width: 100%;
   width: 200px;
-  height: auto;
+  height: 15.625rem;
+  position: relative;
 }
 
-#item:hover {
+.product-card:hover {
   background-color: aliceblue;
+}
+
+.product-info {
+  margin-top: auto;
 }
 
 .cart-column {
