@@ -16,10 +16,10 @@ app.get('/basket/list', async (req, res) => {
 
 app.post('/basket/create', async (req, res) => {
   console.log(`CartService - sending items.`);
-  const { name, price } = req.body;
+  const { name, price, imageUrl } = req.body;
   const itemEvent = {
     type: 'CartItemEvent',
-    data: { name, price },
+    data: { name, price, imageUrl },
   };
   try {
     await axios.post('http://event-bus-srv:4003/events', itemEvent);

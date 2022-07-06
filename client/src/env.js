@@ -1,1 +1,1 @@
-export const APP_URL = "https://posts.com"
+export const APP_URL = "http://posts.com"

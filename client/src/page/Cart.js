@@ -30,7 +30,7 @@ const Basket = () => {
     <div className="cart-column">
       <div className="cart-items">
         {items.map((item, index) => (
-          <CartItem name={item.name} price={item.price} key={index}></CartItem>
+          <CartItem name={item.name} price={item.price} imageUrl={item.imageUrl} key={index}></CartItem>
         ))}
       </div>
       {/* create another div class with flex, column  */}
