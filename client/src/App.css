@@ -34,7 +34,6 @@ nav {
 }
 
 .product-card {
-  /* padding: 2%; */
   padding: 20px;
   margin: 15px;
   border: 1px solid red;
@@ -50,21 +49,25 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* .product-info {
-  padding: 0 10vw;
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 40px;
-} */
-
-.product-card:hover {
-  background-color: aliceblue;
+  padding: 0;
 }
 
 .product-info {
-  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: space-between;
+  letter-spacing: 1.07px;
+  line-height: 50px
+} 
+
+.product-info h5 {
+  font: inherit;
+  font-size: 12px;
+} 
+
+.product-card:hover {
+  background-color: aliceblue;
 }
 
 .cart-column {

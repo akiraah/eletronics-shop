@@ -1,12 +1,12 @@
-import { Routes, Route } from 'react-router-dom';
-import ResponsiveNavBar from './component/ResponsiveNavBar';
-import Navbar from './component/Navbar';
+import { Routes, Route } from 'react-router-dom'
+import ResponsiveNavBar from './component/ResponsiveNavBar'
+import Navbar from './component/Navbar'
 
-import './App.css';
-import React from 'react';
+import './App.css'
+import React from 'react'
 
-import Cart from './page/Cart';
-import Home from './page/Home';
+import Cart from './page/Cart'
+import Home from './page/Home'
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route exact path="/basket" element={<Cart />} />
       </Routes>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
