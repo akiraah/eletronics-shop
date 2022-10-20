@@ -1,9 +1,8 @@
-import { Routes, Route } from 'react-router-dom'
-import ResponsiveNavBar from './component/ResponsiveNavBar'
+import { Route, Routes } from 'react-router-dom'
 import Navbar from './component/Navbar'
 
-import './App.css'
 import React from 'react'
+import './App.css'
 
 import Cart from './page/Cart'
 import Home from './page/Home'
