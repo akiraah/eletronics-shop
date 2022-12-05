@@ -5,8 +5,7 @@ services:
       context: ./client
       dockerfile: Dockerfile
     ports:
-      - '3000:3000'
-    network_mode: 'host'
+      - "3000:3000"
   cart-service:
     build:
       context: ./cart-service
