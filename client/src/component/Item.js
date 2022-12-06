@@ -11,7 +11,7 @@ const Item = ({ name, price, imageUrl }) => {
       </div>
       <div className="product-info">
         <div className="title">{name}</div>
-        <div className="price">{price}</div>
+        <div className="price">£{price}</div>
       </div>
     </div>
   );
